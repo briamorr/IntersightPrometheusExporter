@@ -1,2 +1,3 @@
 # IntersightPrometheusExporter
-Example to export timeseries data
+Example to export power utilization timeseries data to prometheus
+
