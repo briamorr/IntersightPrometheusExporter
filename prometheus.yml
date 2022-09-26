@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 600s
+
+scrape_configs:
+  - job_name: node
+    static_configs:
+    - targets: ['localhost:9877']
+
+remote_write:
+- url: https://url.grafana.net/api/prom/push
+  basic_auth:
+    username: 
+    password: 
