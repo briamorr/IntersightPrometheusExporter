@@ -1,4 +1,3 @@
-```python
 import os
 import time
 from typing import Counter
@@ -118,4 +117,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
